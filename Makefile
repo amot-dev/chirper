@@ -1,8 +1,8 @@
 OBJS	= main.o Chirper.o
 SOURCE	= main.cpp Chirper.cpp
 HEADER	= Chirper.h
-OUT	    = chirper
-CC	    = g++
+OUT	= chirper
+CC	= g++ -std=c++11
 FLAGS	= -g -c 
 
 all: $(OBJS)
